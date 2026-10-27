@@ -1,0 +1,13 @@
+{
+  "seed": 7,
+  "n_train": 650,
+  "n_test": 650,
+  "n_features": 8,
+  "n_canaries_per_rarity": 12,
+  "rarity_levels": [1.5, 2.5, 3.5, 4.5],
+  "synthetic_size": 2500,
+  "attack_fpr": 0.05,
+  "canary_epsilon": 0.35,
+  "repeats": 5,
+  "defenses": ["no_defense", "dp_training", "deduplication"]
+}
